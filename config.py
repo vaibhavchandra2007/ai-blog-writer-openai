@@ -1,5 +1,6 @@
-##OPEN API STUFF
-OPENAI_API_KEY = 'enter-api-key'
+##OPEN API STUFF 
+import os 
+OPENAI_API_KEY = os.getenv("API_KEY")
 
 
 
